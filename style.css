@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:15px 60px;
+    background:#fff;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.logo img{
+    width:40px;
+    height:40px;
+}
+
+.logo-text{
+    font-weight:bold;
+    line-height:1.1;
+}
+
+.nav-links{
+    display:flex;
+    list-style:none;
+    gap:30px;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:#333;
+}
+
+.btn{
+    background:#2d5be3;
+    color:white;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+}
+.hero {
+    width: 100%;
+    min-height: 520px;
+
+    background-image: url("./assets/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-overlay {
+    width: 100%;
+    min-height: 520px;
+
+    background: rgba(0, 0, 0, 0.55);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    max-width: 750px;
+    padding: 40px 20px;
+    text-align: center;
+    color: white;
+}
+
+.hero-content h1 {
+    margin-bottom: 20px;
+    font-size: 56px;
+    line-height: 1.1;
+    font-weight: 700;
+}
+
+.hero-content h1 em {
+    font-weight: 700;
+}
+
+.hero-content p {
+    max-width: 500px;
+    margin: 0 auto 40px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #e5e5e5;
+}
