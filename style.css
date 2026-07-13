@@ -454,4 +454,45 @@
 .code-blue {
     color: #58a6ff;
 }
+.footer{
+    background:#0f1d2d;
+    color:white;
+    padding:20px 40px;
+}
+
+.footer-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:25px;
+}
+
+.footer-logo img{
+    height:40px;
+}
+
+.social-icons{
+    display:flex;
+    gap:18px;
+}
+
+.social-icons a{
+    color:white;
+    font-size:22px;
+}
+
+
+.footer hr{
+    border:none;
+    margin-bottom:20px;
+}
+
+.footer-bottom{
+    text-align:center;
+}
+
+.footer-bottom p{
+    color:#b8c1cc;
+    font-size:14px;
+}
 
