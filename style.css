@@ -159,3 +159,149 @@
     font-size: 13px;
     line-height: 1.5;
 }
+.pricing-section {
+    padding: 80px 20px;
+    background: #ffffff;
+}
+
+.pricing-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.pricing-heading {
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+.pricing-heading h2 {
+    margin-bottom: 10px;
+    color: #102033;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.pricing-heading p {
+    margin: 0;
+    color: #777777;
+    font-size: 14px;
+}
+
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    align-items: stretch;
+}
+
+.pricing-card {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 28px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+}
+
+.plan-name {
+    margin-bottom: 8px;
+    color: #777777;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.pricing-card h3 {
+    margin: 0;
+    color: #102033;
+    font-size: 38px;
+    line-height: 1;
+}
+
+.price-text {
+    margin: 8px 0 18px;
+    color: #8a8a8a;
+    font-size: 12px;
+}
+
+.pricing-card hr {
+    width: 100%;
+    margin: 0 0 22px;
+    border: none;
+    border-top: 1px solid #e5e5e5;
+}
+
+.pricing-card ul {
+    flex-grow: 1;
+    margin: 0 0 25px;
+    padding: 0;
+    list-style: none;
+}
+
+.pricing-card li {
+    position: relative;
+    margin-bottom: 13px;
+    padding-left: 15px;
+    color: #555555;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+.pricing-card li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #2864e8;
+}
+
+.pricing-btn {
+    display: block;
+    width: 100%;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.outline-btn {
+    color: #2864e8;
+    border: 1px solid #2864e8;
+}
+
+.contact-btn {
+    color: #102033;
+    border: 1px solid #102033;
+}
+
+.featured-card {
+    background: #0d1d2d;
+    border-color: #0d1d2d;
+}
+
+.featured-card .plan-name {
+    color: #6ea1ff;
+}
+
+.featured-card h3 {
+    color: #ffffff;
+}
+
+.featured-card .price-text {
+    color: #aab4bf;
+}
+
+.featured-card hr {
+    border-top-color: rgba(255, 255, 255, 0.1);
+}
+
+.featured-card li {
+    color: #d4dbe3;
+}
+
+.primary-btn {
+    color: #ffffff;
+    background: #2864e8;
+    border: 1px solid #2864e8;
+}
+
