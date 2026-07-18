@@ -471,28 +471,44 @@
     height:40px;
 }
 
-.social-icons{
-    display:flex;
-    gap:18px;
+.social-icons {
+    display: flex;
+    gap: 18px;
 }
 
-.social-icons a{
-    color:white;
-    font-size:22px;
+.social-icons img{
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    object-fit:cover;
 }
 
-
-.footer hr{
-    border:none;
-    margin-bottom:20px;
+.footer hr {
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin: 20px 0;
 }
 
-.footer-bottom{
-    text-align:center;
+.footer-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
-.footer-bottom p{
-    color:#b8c1cc;
-    font-size:14px;
+.footer-left p {
+    margin: 0;
+    color: #8c95a3;
+    font-size: 15px;
 }
 
+.footer-right {
+    display: flex;
+    gap: 30px;
+}
+
+.footer-right span {
+    color: #8c95a3;
+    font-size: 15px;
+}
